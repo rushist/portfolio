@@ -520,6 +520,9 @@
             color: #fff;
         }
 
+        /* Logo image on front of card */
+
+
         @media (max-width: 1200px) {
             .projects-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -992,7 +995,8 @@
         <h1><span class="serif">Technologist.</span></h1>
 
         <div class="hero-sub">
-            Specializing in Artificial Intelligence, Machine Learning, Blockchain Architectures, and High-Performance Web
+            Specializing in Artificial Intelligence, Machine Learning, Blockchain Architectures, and High-Performance
+            Web
             Systems.
         </div>
     </section>
@@ -1039,11 +1043,88 @@
         <div class="projects-wrapper">
             <div class="section-title">Projects</div>
             <div class="projects-scroll-container">
-                <!-- Project 1: Readume -->
+
+                <!-- Project 1: Celestia -->
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="project-number">01 — AI Platform</div>
+                            <div class="project-number">01 — Space Platform</div>
+                            <div class="project-title">Celestia</div>
+                        </div>
+                        <a href="https://v0-clst.vercel.app" target="_blank" class="flip-card-back">
+                            <img src="Celestia.png" alt="Celestia Logo"
+                                style="width:100%; height:55%; object-fit:contain; object-position:center top; background:#050505; padding:1.5rem;">
+                            <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
+                            <div class="project-bento-content">
+                                <div class="bento-title">Celestia</div>
+                                <p class="project-bento-desc">Real-time space tracker with ISS positioning, cosmos
+                                    explorer, and live celestial event notifications.</p>
+                                <div class="tag-container">
+                                    <span class="pill">Next.js</span>
+                                    <span class="pill">NASA API</span>
+                                    <span class="pill">WebSocket</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Osmosis -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-number">02 — AI Health</div>
+                            <div class="project-title">Osmosis</div>
+                        </div>
+                        <a href="https://github.com/rushist/Osmosis" target="_blank" class="flip-card-back">
+                            <img src="OsmosisLogo.png" alt="Osmosis Logo"
+                                style="width:100%; height:55%; object-fit:contain; object-position:center top; background:#0a0a0f; padding:1.5rem;">
+                            <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
+                            <div class="project-bento-content">
+                                <div class="bento-title">Osmosis</div>
+                                <p class="project-bento-desc">Privacy-first Web3 access layer replacing wallet
+                                    whitelists with zero-knowledge proofs. Anonymous mints, airdrops &amp; DAO gating
+                                    with constant gas costs.</p>
+                                <div class="tag-container">
+                                    <span class="pill">zkSNARKs</span>
+                                    <span class="pill">Circom</span>
+                                    <span class="pill">Solidity</span>
+                                    <span class="pill">Next.js</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Doodler -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-number">03 — Extension</div>
+                            <div class="project-title">Doodler</div>
+                        </div>
+                        <a href="https://github.com/rushxbh/Doodler" target="_blank" class="flip-card-back">
+                            <img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=800&auto=format&fit=crop"
+                                alt="Doodler">
+                            <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
+                            <div class="project-bento-content">
+                                <div class="bento-title">Doodler</div>
+                                <p class="project-bento-desc">Annotate any website. Draw, highlight, and share.
+                                    Real-time collaboration (WIP).</p>
+                                <div class="tag-container">
+                                    <span class="pill">JavaScript</span>
+                                    <span class="pill">Chrome API</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Readume -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-number">04 — AI Platform</div>
                             <div class="project-title">Readume</div>
                         </div>
                         <a href="https://github.com/rushxbh/Readume" target="_blank" class="flip-card-back">
@@ -1051,7 +1132,7 @@
                                 alt="Readume">
                             <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
                             <div class="project-bento-content">
-                                <div class="bento-title ">Readume</div>
+                                <div class="bento-title">Readume</div>
                                 <p class="project-bento-desc">Robust resume parser using Tesseract OCR and fine-tuned
                                     BERT. Integrated LangChain chatbot.</p>
                                 <div class="tag-container">
@@ -1064,11 +1145,11 @@
                     </div>
                 </div>
 
-                <!-- Project 2: AcreVAULT -->
+                <!-- Project 5: AcreVAULT -->
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="project-number">02 — DApp</div>
+                            <div class="project-number">05 — DApp</div>
                             <div class="project-title">AcreVAULT</div>
                         </div>
                         <a href="https://github.com/komalvsingh/Land_registery" target="_blank" class="flip-card-back">
@@ -1089,14 +1170,15 @@
                     </div>
                 </div>
 
-                <!-- Project 3: Waste Food -->
+                <!-- Project 6: Waste Food -->
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="project-number">03 — Supply Chain</div>
+                            <div class="project-number">06 — Supply Chain</div>
                             <div class="project-title">Waste Food</div>
                         </div>
-                        <a href="https://github.com/VESHackIT/VESHackIT_Null-Pointers_Komal-Singh_SW_05" target="_blank" class="flip-card-back">
+                        <a href="https://github.com/VESHackIT/VESHackIT_Null-Pointers_Komal-Singh_SW_05" target="_blank"
+                            class="flip-card-back">
                             <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop"
                                 alt="Waste Food">
                             <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
@@ -1110,39 +1192,14 @@
                                 </div>
                             </div>
                         </a>
-
                     </div>
                 </div>
 
-                <!-- Project 4: Doodler -->
+                <!-- Project 7: TrustChain -->
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="project-number">04 — Extension</div>
-                            <div class="project-title">Doodler</div>
-                        </div>
-                        <a href="https://github.com/rushxbh/Doodler" target="_blank" class="flip-card-back">
-                            <img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=800&auto=format&fit=crop"
-                                alt="Doodler">
-                            <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
-                            <div class="project-bento-content">
-                                <div class="bento-title">Doodler</div>
-                                <p class="project-bento-desc">Annotate any website. Draw, highlight, and share.
-                                    Real-time collaboration (WIP).</p>
-                                <div class="tag-container">
-                                    <span class="pill">JavaScript</span>
-                                    <span class="pill">Chrome API</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 5: TrustChain -->
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <div class="project-number">05 — Blockchain + ML</div>
+                            <div class="project-number">07 — Blockchain + ML</div>
                             <div class="project-title">TrustChain</div>
                         </div>
                         <a href="https://github.com/xyzarnav/BNB_HACKATHON" target="_blank" class="flip-card-back">
@@ -1152,7 +1209,8 @@
                             <div class="project-bento-content">
                                 <div class="bento-title">TrustChain</div>
                                 <p class="project-bento-desc">Blockchain tender auctions with anonymous bidding. ML
-                                    ranking for contractor risk assessment using history, fraud detection & completion
+                                    ranking for contractor risk assessment using history, fraud detection &amp;
+                                    completion
                                     metrics.</p>
                                 <div class="tag-container">
                                     <span class="pill">Solidity</span>
@@ -1164,21 +1222,21 @@
                     </div>
                 </div>
 
-                <!-- Project 6: CyberChain -->
+                <!-- Project 8: DistGuard -->
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="project-number">06 — Cybersecurity</div>
+                            <div class="project-number">08 — Cybersecurity</div>
                             <div class="project-title">DistGuard</div>
                         </div>
                         <a href="https://github.com/Ad1ty-Gupta23/DistGuard" target="_blank" class="flip-card-back">
                             <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop"
-                                alt="CyberChain">
+                                alt="DistGuard">
                             <div class="project-link-icon"><i class="ph ph-arrow-up-right"></i></div>
                             <div class="project-bento-content">
                                 <div class="bento-title">DistGuard</div>
                                 <p class="project-bento-desc">Blockchain + ML security. Servers as nodes—hacking one
-                                    requires the entire chain. XGBoost & Isolation Forest.</p>
+                                    requires the entire chain. XGBoost &amp; Isolation Forest.</p>
                                 <div class="tag-container">
                                     <span class="pill">Go</span>
                                     <span class="pill">XGBoost</span>
@@ -1188,11 +1246,11 @@
                     </div>
                 </div>
 
-                <!-- Project 7: Tidey -->
+                <!-- Project 9: Tidey -->
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="project-number">07 — Environment</div>
+                            <div class="project-number">09 — Environment</div>
                             <div class="project-title">Tidey</div>
                         </div>
                         <a href="https://github.com/rushxbh/Tidey" target="_blank" class="flip-card-back">
@@ -1202,7 +1260,7 @@
                             <div class="project-bento-content">
                                 <div class="bento-title">Tidey</div>
                                 <p class="project-bento-desc">Beach cleanup with QR attendance, ML beach scoring, event
-                                    scheduling & gamified achievements.</p>
+                                    scheduling &amp; gamified achievements.</p>
                                 <div class="tag-container">
                                     <span class="pill">React</span>
                                     <span class="pill">ML</span>
